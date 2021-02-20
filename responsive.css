@@ -1,0 +1,128 @@
+/* tablet mode */
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    .full_website{
+        width: 98%;
+    }
+    .menu ul li a{
+        font-size: 15px;
+    }
+    .content{
+        width: 99%;
+    }
+    .content a{
+        font-size: 15px;
+        padding: 5px 6px;
+    }
+    .rightsidebar{
+        width: 98%;
+        padding-left: 17px;
+        padding-right: 0px;
+        text-align: justify;
+    }
+    .sidebar_element ul li {
+        list-style: inside;
+    }
+    .menu ul li a {
+        padding: 18px 20px;
+    }
+    .about p{
+        font-size: 16px;
+    }
+    .about h2{
+        font-size: 30px;
+        margin: 0 265px;
+        padding: 1 150px;
+    }
+    .contact h2 {
+        text-align: center;
+        border: 2px dashed crimson;
+        border-radius: 50px;
+        margin: 12px 290px;
+        padding: 0px 80px;
+        color: crimson;
+    }
+    .form {
+        width: 28%;
+        margin: 0px auto 20px;
+        border: 2px solid darkred;
+        padding: 25px 65px;
+        border-radius: 82px 1px;
+    }
+}
+
+/* mobile */
+
+@media only screen and (min-width:480px) and (max-width:767px){
+
+    .full_website{
+        width: 98%;
+    }
+    .menu ul li a{
+        font-size: 10px;
+    }
+    .content{
+        width: 98%;
+    }
+    .content a{
+        font-size: 10px;
+        padding: 0px 1px;
+    }
+    .content a {
+        font-size: 7px;
+    }
+    .content p{
+        font-size: 12px;
+    }
+    .menu ul li a {
+        padding: 22px 13px;
+    }
+    .rightsidebar{
+        width: 98%;
+        padding-left: 9px;
+        padding-right: 0px;
+        text-align: justify;
+
+    }
+    .sidebar_element ul li {
+        list-style: inside;
+    }
+    .box ul li a{
+        font-size: 12px;
+        text-align: justify;
+    }
+    .fiveth{
+        width: 98;
+    }
+    .box h2 {
+        font-size: 14px;
+    
+    }
+    .box ul li a {
+        font-size: 10px;
+        text-align: justify;
+    }
+    .content a{
+        float: right;
+        position: absolute;
+        right: 20px;
+    }
+    .about p{
+        font-size: 14px;
+    }
+    .about h2 {
+        border: 2px dashed darkred;
+        border-radius: 25px;
+        margin: -15px 113px;
+        color: darkred;
+        font-size: 20px;
+        text-align: center;
+        padding: 0px 90px;
+    }
+    .contact h2{
+        margin: 10px 165px;
+    }
+    .form{
+        width: 48%;
+    }
+}
